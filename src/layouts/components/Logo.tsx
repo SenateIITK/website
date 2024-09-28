@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const Logo = ({ src, path }: { src?: string; path: string }) => {
+const Logo = ({ src, path }: { src?: string; path?: string }) => {
   // destructuring items from config object
   const {
     logo,
