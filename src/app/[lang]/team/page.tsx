@@ -10,10 +10,10 @@ import path from "path";
 const Authors = ({ params }: { params: { lang: string } }) => {
   const language = getLanguageObj(params.lang);
   const authorIndex: Author = getListPage(
-    path.join(language.contentDir, "authors/_index.md"),
+    path.join(language.contentDir, "team/_index.md"),
   );
   const authors: Author[] = getSinglePage(
-    path.join(language.contentDir, "authors"),
+    path.join(language.contentDir, "team"),
   );
   const { title, meta_title, description, image } = authorIndex.frontmatter;
   return (

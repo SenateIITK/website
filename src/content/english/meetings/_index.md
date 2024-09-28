@@ -1,6 +1,5 @@
 ---
-title: "Contactez-nous"
+title: "Meeting Minutes"
 meta_title: ""
 description: "this is meta description"
-draft: false
 ---

@@ -1,8 +1,16 @@
 {
   "main": [
     {
-      "name": "Home",
-      "url": "/"
+      "name": "Members",
+      "url": "/team"
+    },
+    {
+      "name": "Meetings",
+      "url": "/meetings"
+    },
+    {
+      "name": "About",
+      "url": "/about"
     },
     {
       "name": "About",
@@ -22,12 +30,12 @@
           "url": "/contact"
         },
         {
-          "name": "Blog",
-          "url": "/blog"
+          "name": "Meetings",
+          "url": "/meetings"
         },
         {
-          "name": "Authors",
-          "url": "/authors"
+          "name": "Members",
+          "url": "/team"
         },
         {
           "name": "Categories",

@@ -5,11 +5,14 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "logo": "/images/logo1.jpeg",
+    "iitk_logo": "/images/logo_iitk.png",
     "logo_darkmode": "/images/logo-darkmode.png",
-    "logo_width": "150",
-    "logo_height": "27",
-    "logo_text": "Nextplate"
+    "logo_width": "70",
+    "logo_height": "70",
+    "logo_text_width": "120",
+    "logo_text_height": "30",
+    "logo_text": "Student's Senate IIT Kanpur"
   },
 
   "settings": {
@@ -19,7 +22,7 @@
     "default_theme": "light",
     "pagination": 2,
     "summary_length": 200,
-    "blog_folder": "blog",
+    "blog_folder": "meetings",
     "default_language": "en",
     "disable_languages": [],
     "default_language_in_subdir": false

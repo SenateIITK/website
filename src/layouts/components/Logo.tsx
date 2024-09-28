@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const Logo = ({ src, lang }: { src?: string; lang: string }) => {
+const Logo = ({ src, path }: { src?: string; path: string }) => {
   // destructuring items from config object
   const {
     logo,
@@ -16,8 +16,10 @@ const Logo = ({ src, lang }: { src?: string; lang: string }) => {
     logo_height,
     logo_text,
     title,
+    iitk_logo,
   }: {
     logo: string;
+    iitk_logo: string;
     logo_darkmode: string;
     logo_width: any;
     logo_height: any;
@@ -34,14 +36,15 @@ const Logo = ({ src, lang }: { src?: string; lang: string }) => {
       ? logo_darkmode
       : logo;
   const logoPath = src ? src : resolvedLogo;
+  // const logoPath = logo;
 
   return (
-    <Link href={slugSelector(lang, "")} className="navbar-brand inline-block">
+    <Link href={"/"} className="navbar-brand inline-block">
       {logoPath ? (
         <Image
           width={logo_width.replace("px", "") * 2}
           height={logo_height.replace("px", "") * 2}
-          src={logoPath}
+          src={path =="iitk_logo" ? iitk_logo : logoPath}
           alt={title}
           priority
           style={{

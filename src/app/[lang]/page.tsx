@@ -88,7 +88,7 @@ const Home = ({ params }: { params: { lang: string } }) => {
         </div>
       </section>
 
-      {features.map((feature, index: number) => (
+      {/* {features.map((feature, index: number) => (
         <section
           key={index}
           className={`section-sm ${index % 2 === 0 && "bg-gradient"}`}
@@ -140,10 +140,10 @@ const Home = ({ params }: { params: { lang: string } }) => {
             </div>
           </div>
         </section>
-      ))}
+      ))} */}
 
-      <Testimonials data={testimonial} />
-      <CallToAction data={callToAction} />
+      {/* <Testimonials data={testimonial} /> */}
+      {/* <CallToAction data={callToAction} /> */}
     </>
   );
 };

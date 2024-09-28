@@ -30,13 +30,13 @@ const BlogCard = async ({ data, lang }: { data: Post; lang: string }) => {
         </Link>
       </h4>
       <ul className="mb-4">
-        <li className="mr-4 inline-block">
+        {/* <li className="mr-4 inline-block">
           <Link href={slugSelector(lang, `/authors/${slugify(author)}`)}>
             <FaRegUserCircle className={"-mt-1 mr-2 inline-block"} />
             {humanize(author)}
           </Link>
-        </li>
-        <li className="mr-4 inline-block">
+        </li> */}
+        {/* <li className="mr-4 inline-block">
           <FaRegFolder className={"-mt-1 mr-2 inline-block"} />
           {categories?.map((category: string, index: number) => (
             <Link
@@ -47,7 +47,7 @@ const BlogCard = async ({ data, lang }: { data: Post; lang: string }) => {
               {index !== categories.length - 1 && ", "}
             </Link>
           ))}
-        </li>
+        </li> */}
         {date && <li className="inline-block">{dateFormat(date)}</li>}
       </ul>
       <p className="mb-6">
