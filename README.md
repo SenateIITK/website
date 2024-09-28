@@ -1,111 +1,71 @@
-<h1 align=center>Nextjs + Tailwind CSS + TypeScript Starter and Boilerplate</h1>
+# Student Senate IITK Website
 
-<p align=center>Nextplate is a free starter template built with Nextjs, TailwindCSS & TypeScript, providing everything you need to jumpstart your Next project and save valuable time.</p>
+Welcome to the Student Senate IITK Website repository. This project is aimed at providing a platform for students to stay updated with the activities and announcements of the Student Senate at IIT Kanpur.
 
-<p align=center>Made with ♥ by <a href="https://zeon.studio/">Zeon Studio</a></p>
-<p align=center>If you find this project useful, please give it a ⭐ to show your support. </p>
+## Table of Contents
 
-<h2 align="center"> <a target="_blank" href="https://zeon.studio/preview?project=nextplate" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-nextplate-netlify-app/zttnq0z42d?form_factor=desktop">Page Speed (100%)🚀</a>
-</h2>
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-<p align=center>
+## Introduction
 
-  <a href="https://github.com/vercel/next.js/releases/tag/v14.1.0" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=NEXTJS&message=14.1&color=000&logo=nextjs" />
-  </a>
+The Student Senate IITK Website serves as the official online presence of the Student Senate at IIT Kanpur. It provides information about the Senate's activities, meeting minutes, announcements, and more.
 
-  <a href="https://github.com/zeon-studio/nextplate/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zeon-studio/nextplate" alt="license"></a>
+## Features
 
-  <img src="https://img.shields.io/github/languages/code-size/zeon-studio/nextplate" alt="code size">
+- Announcements and updates from the Student Senate
+- Meeting minutes and agendas
+- Information about Senate members
+- Contact information
 
-  <a href="https://github.com/zeon-studio/nextplate/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zeon-studio/nextplate" alt="contributors"></a>
-</p>
+## Installation
 
-## 📌 Key Features
+To set up the project locally, follow these steps:
 
-- 👥 Multi-Authors
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown / MDX
-- 💬 Disqus Comment
-- 🔳 Syntax Highlighting
+1. Clone the repository:
+  ```bash
+  git clone https://github.com/yourusername/student-senate-iitk.git
+  ```
+2. Navigate to the project directory:
+  ```bash
+  cd student-senate-iitk
+  ```
+3. Install the dependencies:
+  ```bash
+  npm install
+  ```
 
-### 📄 15+ Pre-designed Pages
+## Usage
 
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
-
-## 🚀 Getting Started
-
-### 📦 Dependencies
-
-- next 14.1+
-- node v20.10+
-- npm v10.2+
-- tailwind v3.3+
-
-### 👉 Install Dependencies
-
+To start the development server, run:
 ```bash
-npm install
+npm start
 ```
+Open your browser and visit `http://localhost:3000` to view the website.
 
-### 👉 Development Command
+## Contributing
 
-```bash
-npm run dev
-```
+We welcome contributions from the community. To contribute, please follow these steps:
 
-### 👉 Build Command
+1. Fork the repository.
+2. Create a new branch:
+  ```bash
+  git checkout -b feature-name
+  ```
+3. Make your changes and commit them:
+  ```bash
+  git commit -m "Add feature"
+  ```
+4. Push to the branch:
+  ```bash
+  git push origin feature-name
+  ```
+5. Create a pull request.
 
-```bash
-npm run build
-```
+## License
 
-### 👉 Build and Run With Docker
-
-```bash
-docker build -t nextplate .
-docker run -p 3000:3000 nextplate
-```
-
-<!-- reporting issue -->
-
-## 🐞 Reporting Issues
-
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/nextplate/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/nextplate/issues).
-
-<!-- licence -->
-
-## 📝 License
-
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
-
-**Code License:** Released under the [MIT](https://github.comzeon-studio/nextplate/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
-
-## 💻 Need Custom Development Services?
-
-If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://zeon.studio/).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
