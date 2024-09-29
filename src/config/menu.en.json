@@ -9,45 +9,35 @@
       "url": "/meetings"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Resources",
+      "url": "/resources"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Constitution",
+      "url": "/constitution"
     },
+    
     {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Pages",
+      "name": "Archives",
       "url": "",
       "hasChildren": true,
       "children": [
         {
+          "name":"Archives",
+          "url": "/archives"
+        },
+        {
+          "name": "Elements",
+          "url": "/elements"
+        },
+        {
+          "name":"About",
+          "url":"/about"
+
+        },
+        {
           "name": "Contact",
           "url": "/contact"
-        },
-        {
-          "name": "Meetings",
-          "url": "/meetings"
-        },
-        {
-          "name": "Members",
-          "url": "/team"
-        },
-        {
-          "name": "Categories",
-          "url": "/categories"
-        },
-        {
-          "name": "Tags",
-          "url": "/tags"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
         }
       ]
     }
